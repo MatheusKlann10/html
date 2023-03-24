@@ -1,0 +1,134 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+
+.destaque {
+  margin-top: 50px;
+}
+
+.destaque h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.destaque ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.destaque li {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+}
+
+.destaque li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.destaque li img {
+  max-width: 100%;
+}
+
+.destaque li h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.destaque li p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.ofertas {
+  margin-top: 50px;
+}
+
+.ofertas h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.ofertas ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.ofertas li {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+}
+
+.ofertas li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.ofertas li img {
+  max-width: 100%;
+}
+
+.ofertas li h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.ofertas li p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin-bottom: 5px;
+}
+
+
+
